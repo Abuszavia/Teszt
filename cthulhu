@@ -1,0 +1,384 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="description" content="web">
+    <meta name="keywords" content="HTML, CSS, JavaScript">
+    <meta name="author" content="Abu">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="https://pro.fontawesome.com/releases/v5.10.0/css/all.css"
+          integrity="sha384-AYmEC3Yw5cVb3ZcuHtOA93w35dYTsvhLPVnYs9eStHfGJvOvKxVfELGroGkvsg+p" crossorigin="anonymous">
+    <link href="/pics/favicon.png?v=1" rel="icon">
+    <link href="/pics/favicon.png" rel="apple-touch-icon">
+    <link
+            rel="stylesheet"
+            href="https://cdnjs.cloudflare.com/ajax/libs/animate.css/4.1.1/animate.min.css"
+    />
+    <link rel="stylesheet" href="https://unpkg.com/swiper/swiper-bundle.min.css">
+    <link href="css/style.css?v=1" rel="stylesheet">
+    <title>First Webpage</title>
+</head>
+<body>
+<audio src="audio/DeathToTheWorld.mp3"></audio>
+<button id="button2">
+    <i class="fas fa-volume-up"></i>
+</button>
+<!--<iframe class="audio" width="10" height="10" src="https://www.youtube.com/embed/pyFjXaKiJLk"  allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>-->
+<!--<div class="bordertop"></div>
+<div class="borderbot"></div>
+<div class="borderright"></div>
+<div class="borderleft"></div>-->
+<span id="back-to-top" class="animate__animated animate__fadeInRight" ><a href="#home"> <i class="fad fa-arrow-to-top"></i></a> </span>
+<div class="video-container">
+
+    <!--<video autoplay muted loop id="myVideo">
+        <source src="video/bgvideo.mp4">
+    </video>-->
+    <img id="myVideo" src="pics/Universbg.jpg" alt="Univers"></div>
+<header id="home">
+    <nav>
+        <div class="bgblack">
+            <div class="container">
+                <div class="subnav flex-holder ">
+                    <div class="leftnav ">
+                        <ul>
+                            <li><a href="contact.html">contact</a></li>
+                            <li><a href="#newsletter">newsletter</a></li>
+                        </ul>
+                    </div>
+
+                    <div class="right">
+                        <ul>
+                            <li><a href="https://www.facebook.com/groups/1941341359429997"><i class="fab fa-facebook-f"></i></a></li>
+                            <li><a href="https://www.instagram.com/cthulhuthecutthroat/"><i class="fab fa-instagram"></i></a></li>
+                            <li><a href="https://twitter.com/cthulhu__bot"><i class="fab fa-twitter"></i></a>
+                            </li>
+                        </ul>
+                    </div>
+                </div>
+            </div>
+        </div>
+        <div id="menu" class="bgdarkgrey ">
+            <div class="container">
+                <div id="mobilnav" class="mainnav flex-holder ">
+                    <a class="mainlogo" href="#home"><h1><img src="pics/logo.png" height="50" width="150"
+                                                              alt="chtulhu logo"></h1></a>
+                    <div class="nav">
+                        <ul id="mobilmenu" class="mobilMenuEffect">
+                            <li><a href="#home">home</a></li>
+                            <li><a href="#bestiary">bestiary</a></li>
+                            <li><a href="#info">info</a></li>
+                            <li><a href="#about">about</a></li>
+                            <li><a href="#video">video</a></li>
+                            <li><a href="#comingout">comingout</a></li>
+                        </ul>
+                    </div>
+                    <div id="menuToggle"><i class="fas fa-bars"></i></div>
+
+                </div>
+            </div>
+        </div>
+
+    </nav>
+    <div class="hero">
+        <div class="container">
+            <div class="herofelx flex-holder">
+                <div class="herologo">
+                   <div class="imgsize"><a href="#home"><img src="pics/logo.png"  alt="Chtulhu logo"></a></div>
+                </div>
+                <div>
+                    <Span class="herobutton"><a href="https://store.steampowered.com/app/399810/Call_of_Cthulhu/" target="_blank">Steam</a></Span>
+                </div>
+            </div>
+        </div>
+    </div>
+</header>
+<main>
+    <section id="bestiary">
+        <div class="swiper-container">
+            <div class="swiper-wrapper">
+                <div class="swiper-slide"><a href="#"><img src="pics/selvitor races/Shoggoth.jpg" alt="Shoggot"
+                                                           height="1000"
+                                                           width="1000"/></a>
+                    <p class="font">Shoggot</p>
+                </div>
+                <div class="swiper-slide"><img src="pics/selvitor races/Hunting_Horror.jpg" height="1000" width="1000"
+                                               alt="HUnting horror lovcraft">
+                    <p class="font">Hunting Horror</p></div>
+                <div class="swiper-slide"><img src="pics/selvitor races/Byakhee.jpg" height="1000" width="1000"
+                                               alt="Byakhee lovcraft">
+                    <p class="font">Byakhee</p></div>
+                <div class="swiper-slide"><img src="pics/selvitor races/Nightgaunt.jpg" height="1000" width="1000"
+                                               alt="Nightgount lovcraft">
+                    <p class="font">Nightgaunt</p></div>
+                <div class="swiper-slide"><img src="pics/other gods/sub-nigurath.jpg" height="1000" width="1000"
+                                               alt="Sub-nigutah">
+                    <p class="font">Sub-Nigutah</p></div>
+                <div class="swiper-slide"><img src="pics/other gods/nyarlathotep.jpg" height="1000" width="1000"
+                                               alt="Nyarlathotep">
+                    <p class="font">Nyarlathotep</p></div>
+                <div class="swiper-slide"><img src="pics/other gods/azathoth.jpg" height="1000" width="1000"
+                                               alt="Azetoth">
+                    <p class="font">Azetoth</p></div>
+                <div class="swiper-slide"><img src="pics/Oldones/cthulhu.jpg" height="1000" width="1000" alt="Cthulhu">
+                    <p class="font">Chtulhu</p></div>
+                <div class="swiper-slide"><img src="pics/Oldones/dagon.jpg" height="1000" width="1000" alt="Dagon">
+                    <p class="font">Dagon</p></div>
+                <div class="swiper-slide"><img src="pics/Oldones/yog-sothoth.jpg" height="1000" width="1000"
+                                               alt="Yog-sothoth">
+                    <p class="font">Yog-Sothoth</p></div>
+                <div class="swiper-slide"><img src="pics/independent races/Chthonian.jpg" height="1000" width="1000"
+                                               alt="Chthonoan">
+                    <p class="font">Chthonia</p></div>
+                <div class="swiper-slide"><img src="pics/independent races/ElderThing.jpg" height="1000" width="1000"
+                                               alt="ElderThing">
+                    <p class="font">Elderthing</p></div>
+                <div class="swiper-slide"><img src="pics/independent races/FlyingPolyp.jpg" height="1000" width="1000"
+                                               alt="Flyingpolyp">
+                    <p class="font">Flyingpolyp</p></div>
+                <div class="swiper-slide"><img src="pics/independent races/GreatRaceofYith.jpg" height="1000"
+                                               width="1000" alt="Greatraceofyith">
+                    <p class="font">GreatraceofYith</p></div>
+                <div class="swiper-slide"><img src="pics/independent races/LengSpider.jpg" height="1000" width="1000"
+                                               alt="Lengspider">
+                    <p class="font">Lengspider</p></div>
+                <div class="swiper-slide"><img src="pics/independent races/DimensionalShambler.jpg" height="1000"
+                                               width="1000" alt="DimensionalSlhambler">
+                    <p class="font">DimensionalShambler</p></div>
+            </div>
+        </div>
+        <div class="bestiary">
+            <a href="bestiary.html">Bestiary</a>
+        </div>
+    </section>
+    <section id="info">
+        <div class="container flexholder flexinfo">
+            <div class="flexinfocenter">
+                <span class="icon"><i class="fal fa-dice-d20 fa-5x"></i></span>
+                <h2>Incredible Atmosphere</h2>
+                <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit. Aliquid aut cumque esse eum ex impedit
+                    laudantium libero nostrum quidem sint.</p>
+
+            </div>
+            <div class="flexinfocenter">
+                <span class="icon"><i class="fal fa-fish fa-5x"></i></span>
+                <h2>Fear</h2>
+                <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit. Architecto deleniti, eos inventore
+                    obcaecati provident quibusdam ut. Delectus illo nulla ratione.</p>
+            </div>
+            <div class="flexinfocenter">
+                <span class="icon"><i class="fal fa-eye-evil fa-5x"></i></span>
+                <h2>Blood</h2>
+                <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit. Alias blanditiis culpa dicta dolorum illum
+                    ipsa nesciunt reprehenderit repudiandae rerum voluptas!</p>
+            </div>
+        </div>
+
+    </section>
+    <section id="about">
+        <div class="bgblack">
+            <div class="container">
+                <h2 class="paddindtop">About Lovecraft Univers</h2>
+                <br>
+                <br>
+                <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit. Alias aliquid aperiam aspernatur
+                    consequatur deserunt eos ex exercitationem ipsum laborum magni, non quae quaerat quas quasi ratione
+                    sunt tenetur! Adipisci in, numquam odio suscipit ullam veniam. Architecto doloribus, ea, laboriosam
+                    .</p>
+            </div>
+
+            <div class="container flex-holder counter-flex ">
+
+                <div class="counter">
+                    <div id="users">1</div>
+                    <h2>Awakening</h2>
+                </div>
+                <div class="counter">
+                    <div class="counter-2">13556</div>
+                    <h2>shattered People</h2>
+                </div>
+                <div class="counter">
+                    <div class="counter-3">987654321</div>
+                    <h2>Fhis</h2>
+                </div>
+
+            </div>
+        </div>
+    </section>
+    <section id="video">
+        <div class="iframevideo" >
+            <iframe  src="https://www.youtube.com/embed/3M3L4VIZv-U" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture" allowfullscreen>
+
+            </iframe>
+        </div>
+    </section>
+    <section id="comingout">
+        <div class="flex-holder date">
+            <img class="outmargin" src="pics/logo.png" height="150" width="400" alt="Cthulhu logo"/>
+            <h3 style="font-size: 1.5em">Awakening</h3>
+            <p id="date-counter">
+            </p>
+        </div>
+    </section>
+    <Section id="newsletter">
+        <div class="bgblack">
+            <div class="container flex-holder newflex">
+                <h2>Subscribe to our Newsletter</h2>
+                <br>
+                <br>
+                <form action="">
+                    <label>
+                        <input class="grid1" type="email" id="email" name="email" placeholder="Email*">
+                        <span class="error grid2">We'll never share your email with anyone else.</span>
+                        <Span class="sendbutton grid3"><button>Subscribe</button></Span>
+                    </label>
+                </form>
+            </div>
+        </div>
+    </Section>
+</main>
+<footer class="bgblack">First weboldal &copy; 2020 | Ruander Oktatóközpont -
+    <a href="https://html.nkdev.info/godlike/index-main.html" target="_blank">minta</a>
+</footer>
+
+<script src="https://unpkg.com/swiper/swiper-bundle.min.js"></script>
+<script>
+
+    let body = document.body;
+    window.onscroll = function () {
+        setStickyMenu();
+        test();
+    };
+
+    function setStickyMenu() {
+        let nav = document.getElementById('menu');
+        let scrollTop = document.documentElement.scrollTop;
+
+        if (scrollTop >= 44) {
+
+            nav.classList.add('sticky');
+
+        } else {
+
+            nav.classList.remove('sticky');
+        }
+
+
+
+    }
+    function test(){
+        let home =document.getElementById('back-to-top');
+        let scrollTop = document.documentElement.scrollTop;
+
+        if (scrollTop >= 44) {
+            home.style.display = 'inline-block'
+        }
+        else {home.style.display = 'none'}
+    }
+
+    let menuToggle = document.getElementById('menuToggle');
+    menuToggle.onclick = function () {
+        let menu = document.querySelector('#menu .mobilMenuEffect');
+        console.log(menu.style.display);
+        if (menu.style.display !== 'flex') {
+            menu.style.display = 'flex';
+        } else {
+            menu.style.display = 'none';
+        }
+    };
+    var swiper = new Swiper('.swiper-container', {
+        effect: 'coverflow',
+        grabCursor: true,
+        centeredSlides: true,
+        slidesPerView: 'auto',
+        coverflowEffect: {
+            rotate: 0,
+            stretch: 0,
+            depth: 100,
+            modifier: 4,
+            slideShadows: true,
+
+        },
+        loop: true
+    });
+
+    // Set the date we're counting down to
+    let countDownDate = new Date("Dec 19, 2020 15:37:25").getTime();
+
+    // Update the count down every 1 second
+    let x = setInterval(function () {
+
+        // Get today's date and time
+        let now = new Date().getTime();
+
+        // Find the distance between now and the count down date
+        let distance = countDownDate - now;
+
+        // Time calculations for days, hours, minutes and seconds
+        let days = Math.floor(distance / (1000 * 60 * 60 * 24));
+        let hours = Math.floor((distance % (1000 * 60 * 60 * 24)) / (1000 * 60 * 60));
+        let minutes = Math.floor((distance % (1000 * 60 * 60)) / (1000 * 60));
+        let seconds = Math.floor((distance % (1000 * 60)) / 1000);
+
+        // Display the result in the element with id="demo"
+        document.getElementById("date-counter").innerHTML = days + " " + hours + " "
+            + minutes + " " + seconds + " ";
+
+        // If the count down is finished, write some text
+        if (distance < 0) {
+            clearInterval(x);
+            document.getElementById("date-counter").innerHTML = "EXPIRED";
+        }
+    }, 1000);
+
+/*    window.onscroll = function () {
+        setHomeButton();};
+        let scrollTop = document.documentElement.scrollTop;
+        let home = document.getElementById('homebutton');
+        function setHomeButton() {
+        if (scrollTop >= 44) {
+
+            home.style.display = 'inline'
+
+        } else {
+            home.style.display = 'none'
+        }
+        }*/
+
+    const button = document.querySelector("#button2");
+    const icon = document.querySelector("#button2 > i");
+    const audio = document.querySelector("audio");
+
+    button.addEventListener("click", () => {
+        if (audio.paused) {
+            audio.volume = 0.2;
+            audio.play();
+            icon.classList.remove('fa-volume-up');
+            icon.classList.add('fa-volume-mute');
+
+        } else {
+            audio.pause();
+            icon.classList.remove('fa-volume-mute');
+            icon.classList.add('fa-volume-up');
+        }
+        button.classList.add("fade");
+    });
+
+
+ /*   window.onscroll = function () {
+        homeButton ();
+    };
+    function homeButton(){
+        let home =document.getElementsByClassName('back-to-top');
+        let scrollTop = document.documentElement.scrollTop;
+        if (scrollTop >= 44) {
+            home.style.display = 'inline-block'
+        }else {
+            home.style.display = 'none';
+        }
+    }*/
+</script>
+
+</body>
+</html>
+
